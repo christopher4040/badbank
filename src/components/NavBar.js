@@ -40,9 +40,8 @@ function NavBar(props) {
           <div className="navbar-nav">
             <Nav variant="pills" activeKey={location.pathname !== '/' ? String(location.pathname) : ''} >
               <Nav.Item className="nav-item">
-                <Nav.Link href="/#" eventKey="" className="nav-link">Home</Nav.Link>
+                <Nav.Link href="/index.html" eventKey="" className="nav-link">Home</Nav.Link>
               </Nav.Item>
-              <br/>
               <Nav.Item>
                 <Nav.Link href="#/deposit" eventKey="/deposit">Deposit</Nav.Link>
               </Nav.Item>
