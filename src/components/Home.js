@@ -4,17 +4,18 @@ import { UserContext } from "../index";
 import { useContext } from "react";
 
 function Home() {
-  const ctx = useContext(UserContext); 
-  console.log("Logged User : ", ctx.loggedUser)
+  const ctx = useContext(UserContext);
+  console.log("Logged User : ", ctx.loggedUser);
   return (
-    <div style={{ height: "80vh",
-    alignContent: "center",
-    display: "flex" }}>
+    <div style={{ height: "80vh", alignContent: "center", display: "flex" }}>
       <Card
         txtcolor="black"
         header="Bad Bank"
-        title={ctx.loggedUser !== null ? "Welcome "+ctx.loggedUser.Name+"!" : "Welcome to the Bad Bank app! Please login or create an account to see the information."}
-        // text="You can use this bank"
+        title={
+          ctx.loggedUser !== null
+            ? "Welcome " + ctx.loggedUser.Name + "!"
+            : "Welcome to the Bad Bank app! Please login or create an account to see the information."
+        }
         body={
           <img
             src={BankLogo}

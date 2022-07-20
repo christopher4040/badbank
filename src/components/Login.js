@@ -20,7 +20,7 @@ function Login(props) {
         (user) => user.Email === data.Email && user.Password === data.Password
       );
       console.log(ctx.loggedUser);
-      navigate("/#");
+      navigate("/");
     } else setShow(true);
   };
 

@@ -4,7 +4,7 @@ import { UserContext } from "../index";
 import { useContext } from "react";
 import { Alert, Button } from "react-bootstrap";
 
-function Withdraw (props) {
+function Withdraw(props) {
   const ctx = useContext(UserContext);
   const [error, setError] = React.useState(false);
   const [showAlert, setShowAlert] = React.useState(false);
@@ -23,7 +23,7 @@ function Withdraw (props) {
     }
     setShowAlert(true);
     console.log("Withdraw", data);
-    
+
     console.log("Withdraw", balance);
   };
 
@@ -46,8 +46,8 @@ function Withdraw (props) {
     if (error) {
       return (
         <Alert
-        className="position-absolute"
-        style={{ width: "100%", zIndex: "1", position: "absolute" }}
+          className="position-absolute"
+          style={{ width: "100%", zIndex: "1", position: "absolute" }}
           variant="danger"
           onClose={() => setShowAlert(false)}
           dismissible
@@ -58,8 +58,8 @@ function Withdraw (props) {
     } else {
       return (
         <Alert
-        className="position-absolute"
-        style={{ width: "100%", zIndex: "1", position: "absolute" }}
+          className="position-absolute"
+          style={{ width: "100%", zIndex: "1", position: "absolute" }}
           variant="success"
           onClose={() => setShowAlert(false)}
           dismissible
@@ -68,13 +68,10 @@ function Withdraw (props) {
         </Alert>
       );
     }
-    
   };
 
   return (
-    <div style={{ height: "80vh",
-    alignContent: "center",
-    display: "flex" }}>
+    <div style={{ height: "80vh", alignContent: "center", display: "flex" }}>
       {showAlert && handleAlert()}
       {props.isLogged ? (
         <Card
@@ -91,10 +88,13 @@ function Withdraw (props) {
           text="Please, Login or Create an account to continue."
           body={
             <>
-            <Button href="#/login" variant="primary" className="me-4">Login</Button>
-            <Button href="#/createaccount" variant="secondary">Create Account</Button>
+              <Button href="#/login" variant="primary" className="me-4">
+                Login
+              </Button>
+              <Button href="#/createaccount" variant="secondary">
+                Create Account
+              </Button>
             </>
-            
           }
         />
       )}

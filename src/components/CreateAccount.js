@@ -65,7 +65,7 @@ export function CreateAccount(props) {
             Create another account
           </Button>
           
-          <Button variant="secondary" href="/#" onClick={handleClose}>
+          <Button variant="secondary" href="#/" onClick={handleClose}>
             Close
           </Button>
         </Modal.Body>

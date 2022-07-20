@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Context";
 import { UserContext } from "../index";
 import { useContext } from "react";
-import Button from "react-bootstrap/Button"
+import Button from "react-bootstrap/Button";
 
 function AllData(props) {
   const ctx = useContext(UserContext);
