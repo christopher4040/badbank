@@ -16,7 +16,7 @@ root.render(
             Name: "Christopher Maldonado",
             Email: "christopherpr101@gmail.com",
             Password: "123456a!",
-            Balance: 200,
+            Balance: 300,
           },
         ],
         loggedUser: null,
