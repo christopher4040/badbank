@@ -3,7 +3,8 @@
 ## Description
 This is a bank application where you can create account, deposit, withdraw and see all the data of the accounts.
 
-## Installation Guidelines
+## Installation and Usage
+Prerequisites: [Node.js](https://nodejs.org) (`>= 14.17.6`)
   
 ### `git clone`
 
