@@ -5,7 +5,7 @@ This is a bank application where you can create account, deposit, withdraw and s
 
 ## Installation Guidelines
   
-### git clone
+### `git clone`
 
 ## To Run
 Visit [Tic Tac Toe](https://chma.dev/tic-tac-toe) to view this project on your browser.
