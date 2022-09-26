@@ -1,11 +1,11 @@
 # Bad Bank
 
 ## Description
-  - This is a bank application where you can create account, deposit, withdraw and see all the data of the accounts.
+This is a bank application where you can create account, deposit, withdraw and see all the data of the accounts.
 
 ## Installation Guidelines
   
-  - ### git clone
+### git clone
 
 ## To Run
 Visit [Tic Tac Toe](https://chma.dev/tic-tac-toe) to view this project on your browser.
