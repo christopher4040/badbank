@@ -12,7 +12,7 @@ $ git clone https://github.com/christopher4040/badbank.git
 ```
 
 ## To Run
-Visit [Tic Tac Toe](https://chma.dev/tic-tac-toe) to view this project on your browser.
+
 
 ## License
 MIT License
